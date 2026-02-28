@@ -4,7 +4,7 @@
   "description": "A comprehensive guide to mastering TypeScript through code-along exercises and refresher materials.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc && node test.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/andryhialy/please-me-ts-me/issues"
   },
-  "homepage": "https://github.com/andryhialy/please-me-ts-me#readme"
+  "homepage": "https://github.com/andryhialy/please-me-ts-me#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
